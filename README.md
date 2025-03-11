@@ -1,16 +1,16 @@
 # cnpj_infos
 
-A new Flutter project.
+Aplicativo que busca informações sobre um determinado CNPJ.<br/>
+Usando a API do [BrasilAPI](https://brasilapi.com.br/) com o endpoint `api/cnpj/v1/$cnpj`.<br/>
+A mesma é disponível gratuitamente, mas é **muito importante ler os** [Termos de uso da api](https://brasilapi.com.br/#termos-de-uso)<br/>
+
+![Print1](prints/print1.jpg)<br/>
+![Print1](prints/print2.jpg)<br/>
+![Print1](prints/print3.jpg)<br/>
+![Print1](prints/print4.jpg)<br/>
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+`git clone git@github.com:kauemurakami/cnpj_infos.git`<br/>
+`flutter pub get `<br/>
+`flutter run `<br/>
