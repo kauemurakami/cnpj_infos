@@ -4,7 +4,7 @@ Aplicativo que busca informações sobre um determinado CNPJ.<br/>
 Usando a API do [BrasilAPI](https://brasilapi.com.br/) com o endpoint `api/cnpj/v1/$cnpj`.<br/>
 A mesma é disponível gratuitamente, mas é **muito importante ler os** [Termos de uso da api](https://brasilapi.com.br/#termos-de-uso)<br/>
 
-![Print1](prints/print1.jpg)<br/>
+<img src="https://github.com/kauemurakami/cnpj_infos/raw/main/prints/print1.jpg" width="311" height="631">
 ![Print1](prints/print2.jpg)<br/>
 ![Print1](prints/print3.jpg)<br/>
 ![Print1](prints/print4.jpg)<br/>
