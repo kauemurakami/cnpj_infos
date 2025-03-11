@@ -15,14 +15,15 @@ class HomeProvider extends ChangeNotifier {
     load.value = true;
     notifyListeners();
     final Either<AppError, Cnpj> result = await repository.fetchCnpjInfos(cnpj.value.cnpj!);
-    load.value = false;
-    notifyListeners();
+
     result.fold((AppError error) {
       //TODO another handler errors
     }, (Cnpj cnpj) {
       this.cnpj.value = cnpj;
       this.cnpj.notifyListeners();
     });
+    load.value = false;
+    notifyListeners();
     return result;
   }
 

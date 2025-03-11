@@ -10,11 +10,7 @@ class ApiService {
 
   Future<Either<AppError, Cnpj>> fetchCnpjData(String cnpj) async {
     print('/${cnpj.removeMask}');
-    //   final Either<AppError, Response> result = await handleDioExceptions(
-    //     () => _dio.get(
-    //       '/$cnpj',
-    //     ),
-    //   );
+
     try {
       final response = await _dio.get('/${cnpj.removeMask}');
       print(response.data);
